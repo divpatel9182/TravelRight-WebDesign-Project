@@ -1,0 +1,173 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+/* CSS Document for the Contact page */
+
+
+/* Developed by:  Div */
+
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14pt;
+    text-shadow: #ee9b57 3px 0 6px;
+    background-image: linear-gradient(to right, #F3CBA8, #f3b087);
+    color: #26a1b1;
+    background-image: url('../images/footer_marquee_index.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navigation {
+    position: fixed;
+    z-index: 6;
+    align-items: center;
+    opacity: .8;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    border-bottom: solid thick #AB8A72;
+    box-shadow: 4px 0 4px 0 #AB8A72;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #F3CBA8, #F5C1A0);
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    font-weight: bolder;
+    font-size: 16pt;
+    color: #07616b;
+}
+
+.navigation a:hover {
+    background: #f0b686;
+}
+
+.navigation img {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    color: #07616b;
+    text-align: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: auto 200px;
+}
+
+address p {
+    margin: 0px;
+    text-align: left;
+}
+
+.footer {
+    border-top: thick solid #AB8A72;
+    z-index: 5;
+    opacity: .9;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #F3CBA8, #F5C1A0);
+    position: fixed;
+    bottom: 0px;
+}
+
+.address_container {
+    flex: auto;
+    list-style: none;
+    width: 20%;
+    margin: 1%;
+}
+
+.hours_container {
+    flex: auto;
+    list-style: none;
+    width: 20%;
+    margin: 1%;
+}
+
+.logo_wrapper {
+    flex: auto;
+    width: 20%;
+    margin: 1%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.rq {
+color: 
+#FF0000;
+font-size: 10pt;
+text-align: right;
+}
+
+@font-face {
+  font-family: 'DIGITAL';
+  src: url('https://cssdeck.com/uploads/resources/fonts/digii/DS-DIGII.TTF');
+}
+
+
+.digital-clock {
+  margin-bottom: 25px;
+  color: #ffffff;
+  border: 2px solid #999;
+  border-radius: 4px;
+  text-align: center;
+  font: 50px/60px 'DIGITAL', Helvetica;
+  background: linear-gradient(90deg, #000, #555);
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Feedback</title>
+		<!--HTML Document for the Contact Us page
+		 Developed by: Div
+		-->
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<link rel="stylesheet" href="styles/contact.css">
+		<link rel="stylesheet" href="https://fonts.google.com/specimen/Source+Sans+Pro?category=Sans+Serif">
+		<link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?category=Sans+Serif#standard-styles">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="JS/feedback.js"></script>
+
+    </head>
+    <body >
+		
+		<header class="header">
+            <nav class="nav">
+                <ul class="navigation">
+                    <li><img src="images/Logo.png" alt="Travel Right Logo" title="Travel Right Logo"></li>
+                    <li><a href="travel_right_index.html">Home</a></li>
+                    <li><a href="blog.html">Why Travel Right</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="booking.html">Book Now</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+					<li><a href="Feedback.html">Feedback</a></li>
+                    <li><a href="travel_right_index_fr.html">Fr</a></li>
+                </ul>
+            </nav>
+        </header>
+		<div class="center">
+        <div class="center">
+
+        </div>
+        <div class="center"></div>
+
+    </div>
+	
+
+        <div class="container">
+            <div class="imagebg"></div>
+            <div class="row " style="margin-top: 50px">
+                <div class="col-md-6 col-md-offset-3 form-container">
+                    <h2 style="text-align: center;">Feedback</h2>
+                    <p> Please provide your feedback below: </p>
+                    <form role="form" method="post" id="reused_form">
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label style="display: block;
+											text-align: center;
+											">
+											How do you rate your overall experience?</label>
+                                <p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Bad 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        Average 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                        Good 
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label for="comments"> Comments:</label>
+                                <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="name"> Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+							<div class="col-sm-6 form-group">
+                                <label for="name"> Email:</label>
+                                <input type="text" class="form-control" id="email" name="email" required>
+                            </div>
+                        
+                        </div>
+                     <button type="button" onclick="myFunction()">Post Feedback</button>
+                    </form>
+              
+                </div>
+            </div>
+			<p>Customers Feedbacks</p>
+
+				<table id="myTable" border="10">
+				  <tr>
+					<td style="width: 70px;">Name :</td>
+					<td style="width: 150px;">Divyang Patel</td>
+					<td style="width: 150px;">Ratings : Good</td>
+					<td style="width: 120px;">Comments :</td>
+					<td>Our holiday was a varied mixture personalised to our interests in historic towns and sites, architecture, textiles, rural life, wildlife and even the rather niche subject of railways</td>
+				  </tr>
+				  <tr>
+					<td style="width: 70px;">Name :</td>
+					<td style="width: 150px;">Ash</td>
+					<td style="width: 200px;">Ratings : Good</td>
+					<td style="width: 120px;">Comments :</td>
+					<td>The perfect combination- lone travelling , excellent organisation and the best of experiences , thank you .</td>
+				  </tr>
+				  <tr>
+					<td style="width: 70px;">Name :</td>
+					<td style="width: 150px;">Victor</td>
+					<td style="width: 200px;">Ratings : Good</td>
+					<td style="width: 120px;">Comments :</td>
+					<td>A well planned , varied experience with excellent prior planning and local knowledge. Very interesting, different hotels. The local drivers and guides made us feel welcome and at home in their communities.</td>
+				  </tr>
+				</table>
+				<br>
+
+		
+        </div>
+		<div class="center">
+        <div class="center">
+
+        </div>
+        <div class="center"></div>
+
+    </div>
+	<div class="center">
+        <div class="center">
+
+        </div>
+        <div class="center"></div>
+
+    </div>
+		<footer class="footer">
+        <ul class=address_container>
+            <li><strong>Address</strong></li>
+            <li>1234 Ste. Catherine Ouest</li>
+            <li>Montreal, Qc, Canada</li>
+            <li>H2K 3H2</li>
+        </ul>
+        <ul class="hours_container">
+            <li><strong>Hours of Operation</strong></li>
+            <li>Mon-Friday: 9am-4:30pm</li>
+            <li>Saturday: 11am - 4:30pm</li>
+            <li>Sunday: Closed</li>
+        </ul>
+        <div class="logo_wrapper">
+            <img src="images/Logo.png" alt="Travel Right Logo" title="Travel Right Logo">
+        </div>
+		<div class="digital-clock">00:00:00</div>
+    </footer>
+    </body>
+</html>

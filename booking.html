@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form to book travel plans" />
+    <meta name="keywords" content="Travel Right, travel, booking, vacation, travel agency" />
+    <meta name="author" content="Ileana" />
+    <title>Book Your Trip! | Travel Right</title>
+    <!--HTML Document for the Booking page
+    Developed by: Ileana Luts
+    Scripts by: Kevin Paul
+    Script Date: September 19, 2021-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/book.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/booking.js" defer></script>
+</head>
+
+<body>
+    <form id="booking-form" action="#" method="post" autocomplete="on">
+        <header class="header">
+            <nav class="nav">
+                <ul class="navigation">
+                    <li><img src="images/Logo.png" alt="Travel Right Logo" title="Travel Right Logo"></li>
+                    <li><a href="travel_right_index.html">Home</a></li>
+                    <li><a href="blog.html">Why Travel Right</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="booking.html">Book Now</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="travel_right_index_fr.html">Fr</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="grid-container">
+            <div class="full-width">
+                <h1>Take Your Dream Vacation</h1>
+                <p>Complete our booking form and our team will get in touch with you to confirm your request.</p>
+                <h3>Personal Details</h3>
+                <br />
+            </div>
+            <div class="col2 form-part1">
+                <label for="full-name">Full Name&ast;</label>
+                <br />
+                <input type="text" id="full-name" required="required" />
+            </div>
+            <div class="col3 form-part1">
+                <label for="email">Email&ast;</label>
+                <br />
+                <input type="text" id="email" required="required" />
+            </div>
+            <div class="col2 form-part1">
+                <label for="phone">Phone&ast;</label>
+                <br />
+                <input type="text" id="phone" required="required" />
+            </div>
+            <div class="col3 form-part1">
+                <label for="street">Street&ast;</label>
+                <br />
+                <input type="text" id="street" required="required" />
+            </div>
+            <div class="col2 form-part1">
+                <label for="city">City&ast;</label>
+                <br />
+                <input type="text" id="city" required="required" />
+            </div>
+            <div class="col3 form-part1">
+                <label for="province">Province&ast;</label>
+                <br />
+                <select name="province" id="province" required="required">
+                    <option value="QC">Quebec</option>
+                    <option value="AB">Alberta</option>
+                    <option value="BC">British Columbia</option>
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">New Brunswick</option>
+                    <option value="NL">Newfoundland and Labrador</option>
+                    <option value="NT">Northwest Territories</option>
+                    <option value="NS">Nova Scotia</option>
+                    <option value="NU">Nunavut</option>
+                    <option value="ON">Ontario</option>
+                    <option value="PE">Prince Edward Island</option>
+                    <option value="SK">Saskatchewan</option>
+                    <option value="YT">Yukon</option>
+                </select>
+            </div>
+            <div class="col2 form-part1">
+                <label for="postal-code">Postal Code&ast;</label>
+                <br />
+                <input type="text" id="postal-code" required="required" />
+            </div>
+            <div class="col3">
+                <label for="country">Country&ast;</label>
+                <br />
+                <select name="country" id="country" required="required">
+                    <option value="Canada">Canada</option>
+                </select>
+            </div>
+            <div class="full-width form-part1 validMsg">
+                <p></p>
+            </div>
+            <div class="full-width form-part2">
+                <h3>Booking Details</h3>
+                Choose Your Destination:
+            </div>
+            <div class="full-width form-part2">
+                <input type="radio" id="bermuda" name="location" required="required" />
+                <label for="bermuda"><img src="images/bermuda2.png" height="170" width="307" alt="Beach in Bermuda"
+                        title="Beach in Bermuda" /></label>
+                <input type="radio" id="fiji" name="location" />
+                <label for="fiji"><img src="images/fiji2.jpg" height="170" width="307" alt="Overhead picture of Fiji"
+                        title="Overhead picture of Fiji" /></label>
+                <input type="radio" id="mauritius" name="location" />
+                <label for="mauritius"><img src="images/mauritius2.jpg" height="170" width="307"
+                        alt="Overhead picture of Mauritius" title="Overhead picture of Mauritius" /></label>
+                <br />
+                <input type="radio" id="amazon" name="location" />
+                <label for="amazon"><img src="images/amazon2.jpg" height="170" width="307"
+                        alt="Boats on the Amazon river" title="Boats on the Amazon river" /></label>
+                <input type="radio" id="gbr" name="location" />
+                <label for="gbr"><img src="images/gbr.jpg" height="170" width="307"
+                        alt="Overhead shot of the Great Barrier Reef"
+                        title="Overhead shot of the Great Barrier Reef" /></label>
+                <input type="radio" id="costarica" name="location" />
+                <label for="costarica"><img src="images/costarica.jpg" height="170" width="307"
+                        alt="Bridge in jungle of Costa Rica" title="Bridge in jungle of Costa Rica" /></label>
+                <br />
+                <input type="radio" id="shanghai" name="location" />
+                <label for="shanghai"><img src="images/shanghai2.jpg" height="170" width="307" alt="Skyline of Shanghai"
+                        title="Skyline of Shanghai" /></label>
+                <input type="radio" id="mexicocity" name="location" />
+                <label for="mexicocity"><img src="images/mexicocity2.jpg" height="170" width="307"
+                        alt="Skyline of Mexico City" title="Skyline of Mexico City" /></label>
+                <input type="radio" id="berlin" name="location" />
+                <label for="berlin"><img src="images/berlin2.jpg" height="170" width="307" alt="Skyline of Berlin"
+                        title="Skyline of Berlin" /></label>
+            </div>
+            <div class="col2 form-part3">
+                <br /><br />
+                <label for="adults">Adults&ast;</label>
+                <br />
+                <input type="number" id="adults" min="1" max="10" default="1" required="required" />
+            </div>
+            <div class="col3 form-part3">
+                <br /><br />
+                <label for="children">Children</label>
+                <br />
+                <input type="number" id="children" min="0" max="10" />
+            </div>
+            <div class="col2 form-part3">
+                <label for="arrival">Arrival Date&ast;</label>
+                <br />
+                <input type="date" id="arrival" required="required" />
+            </div>
+            <div class="col3 form-part3">
+                <label for="departure">Departure Date&ast;</label>
+                <br />
+                <input type="date" id="departure" />
+            </div>
+            <div class="full-width form-part3 validMsg">
+                <p></p>
+            </div>
+            <div class="full-width form-part3">
+                <br />
+                <input class="submit" type="submit" value="Send" />
+                <p>Required Field*</p>
+            </div>
+            <div class="full-width">
+                <footer class="footer">
+                    <ul class=address_container>
+                        <li><strong>Address</strong></li>
+                        <li>1234 Ste. Catherine Ouest</li>
+                        <li>Montreal, Qc, Canada</li>
+                        <li>H2K 3H2</li>
+                    </ul>
+                    <ul class="hours_container">
+                        <li><strong>Hours of Operation</strong></li>
+                        <li>Mon-Friday: 9am-4:30pm</li>
+                        <li>Saturday: 11am - 4:30pm</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                    <div class="logo_wrapper">
+                        <img src="images/Logo.png" alt="Travel Right Logo" title="Travel Right Logo">
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

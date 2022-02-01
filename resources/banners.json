@@ -1,0 +1,31 @@
+{
+    "banners": [{
+            "id": 1,
+            "name": "family",
+            "url": "./images/family.jpg",
+            "text": "Travel Journals",
+            "priority": 3
+        },
+        {
+            "id": 2,
+            "name": "Berlin",
+            "url": "./images/berlin-banner.jpg",
+            "text": "Visit Berlin",
+            "priority": 2
+        },
+        {
+            "id": 3,
+            "name": "Amazon",
+            "url": "./images/amazon-banner.jpg",
+            "text": "Adventure In Amazon",
+            "priority": 1
+        },
+        {
+            "id": 4,
+            "name": "Shanghai",
+            "url": "./images/shanghai-banner.jpg",
+            "text": "Shanghai is beyond language",
+            "priority": 4
+        }
+    ]
+}

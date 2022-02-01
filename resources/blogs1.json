@@ -1,0 +1,29 @@
+{
+    "blogs": [{
+            "id": 1,
+            "title": "santorini",
+            "image_url": "./images/santorini.jpg",
+            "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita ipsa blanditiis praesentium quo quia explicabo error voluptatibus dolores voluptatum deserunt, quasi consequatur non molestiae, quam minima repellat sit ratione."
+        },
+        {
+            "id": 2,
+            "title": "paris",
+            "image_url": "./images/paris.jpg",
+            "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita ipsa blanditiis praesentium quo quia explicabo error voluptatibus dolores voluptatum deserunt, quasi consequatur non molestiae, quam minima repellat sit ratione."
+        },
+        {
+            "id": 3,
+            "title": "veniz",
+            "image_url": "./images/veniz.jpg",
+            "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita ipsa blanditiis praesentium quo quia explicabo error voluptatibus dolores voluptatum deserunt, quasi consequatur non molestiae, quam minima repellat sit ratione."
+        },
+        {
+            "id": 4,
+            "title": "negombo",
+            "image_url": "./images/negombo.jpg",
+            "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita ipsa blanditiis praesentium quo quia explicabo error voluptatibus dolores voluptatum deserunt, quasi consequatur non molestiae, quam minima repellat sit ratione."
+        }
+    ],
+    "total_item_count": 11,
+    "page_number": 1
+}
